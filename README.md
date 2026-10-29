@@ -4,7 +4,7 @@ A Claude skill that tells you whether a business idea — especially one an AI s
 
 ## Where it came from
 
-I spent four hours letting an AI pitch me side businesses: invoice-chasing tools, Caribbean land registries, verified-handmade badges, graduate-to-trades content sites, an "Etsy without AI slop". Eleven of twelve died — to a free government website, to a chatbot that already answers the question, to a funded team already running the race, or to my own calendar.
+I spent four hours letting an AI pitch me side businesses: invoice-chasing tools, Caribbean land registries, verified-handmade badges, graduate-to-trades content sites, an "Etsy without AI slop". Eleven of twelve died — to a free government website, to a chatbot that already answers the question, to a funded team already running the race, and to my own calendar.
 
 The machine generated. I decided. The deciding was a repeatable set of tests, so I wrote them down. This is them.
 

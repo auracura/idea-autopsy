@@ -39,6 +39,7 @@ Search: `[idea] app 2026`, `[idea] alternative`, `[idea] shut down OR closed OR 
 - Name at least five incumbents, with price and whether they're funded.
 - Name anyone who tried this and died, and why.
 - Rule of thumb for 2026: **any pain that makes the news already has ten apps within a quarter.** The question is not "is there a gap" but "why hasn't the gap been filled, and is that reason about to change?"
+- **Look for the workaround.** Search `[problem] spreadsheet`, `[problem] "is there a tool"`, `[problem] "what's your system"`. People already duct-taping a spreadsheet and three apps together are demand with a receipt; people merely complaining are not. No workaround found usually means no one wants it badly enough to pay.
 - If the incumbents are free (a government site, a bank's advice page, a safe-word card), the idea is competing with free. That is usually fatal.
 
 ## Step 3 — The Time Test

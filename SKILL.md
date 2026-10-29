@@ -1,6 +1,6 @@
 ---
 name: idea-autopsy
-description: Stress-test a business idea — especially one an AI suggested — before anyone builds it. Use when the user says "autopsy this", "is this a business or bullshit", "test this idea", or pastes a startup/side-hustle idea and wants to know if it's real. Returns one of three verdicts: BUSINESS, BULLETIN (it's really just content or information), or BULLSHIT, plus the smallest test that would prove it. Built from a four-hour session in which an LLM pitched twelve businesses and eleven died.
+description: "Stress-test a business idea — especially one an AI suggested — before anyone builds it. Use when the user says \"autopsy this\", \"is this a business or bullshit\", \"test this idea\", or pastes a startup/side-hustle idea and wants to know if it's real. Returns one of four verdicts: BUSINESS, BUSINESS WRONG OWNER (real idea, wrong constraints — says which), BULLETIN (it's really just content or information), or BULLSHIT, plus the smallest test that would prove it wrong. Built from a four-hour session in which an LLM pitched twelve businesses and eleven died."
 ---
 
 # Idea Autopsy

@@ -2,6 +2,18 @@
 
 A Claude skill that tells you whether a business idea — especially one an AI suggested — is a **BUSINESS**, a **BUSINESS, WRONG OWNER**, a **BULLETIN** (really just content), or **BULLSHIT**. It is deliberately hostile. Its job is to kill the idea; if the idea survives, it hands you the smallest test that would prove it wrong, with a kill line.
 
+## Install
+
+With [skills.sh](https://skills.sh):
+
+```bash
+npx skills add auracura/idea-autopsy
+```
+
+Or manually: copy `SKILL.md` to `.claude/skills/idea-autopsy/SKILL.md`.
+
+Then say "autopsy this:" followed by the idea and your constraints, e.g. *"autopsy this: a booking app for mobile barbers. 6 hours/week, $2k/month in a year, solo barbers, Trinidad."*
+
 ## Where it came from
 
 I spent four hours letting an AI pitch me side businesses: invoice-chasing tools, Caribbean land registries, verified-handmade badges, graduate-to-trades content sites, an "Etsy without AI slop". Eleven of twelve died — to a free government website, to a chatbot that already answers the question, to a funded team already running the race, and to my own calendar.
@@ -29,9 +41,6 @@ The machine generated. I decided. The deciding was a repeatable set of tests, so
 Two of the examples above are mine: a tax-filing service (kept unnamed — it has customers) and Decyde (named — it's already public). Neither came out BUSINESS. One moved to BUSINESS, WRONG OWNER when I fixed the constraints it flagged; the other is a BULLETIN. I also ran it on two older ideas of mine that aren't in this repo. Both died. I'd rather know now than in month nine.
 
 Six runs, zero BUSINESS. Every kill came with a receipt I could check. Make of that what you will about AI-generated business ideas — and about mine.
-
-## Install
-Copy `SKILL.md` into your Claude skills folder (`.claude/skills/idea-autopsy/SKILL.md`) and say "autopsy this".
 
 ## Limits
 - It judges ideas *today*; it does not time-travel.

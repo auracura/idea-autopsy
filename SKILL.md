@@ -37,7 +37,7 @@ If none apply, the idea is a wrapper. Verdict leans BULLSHIT. If the only thing 
 ## Step 2 — The Crowd and the Graveyard
 Search: `[idea] app 2026`, `[idea] alternative`, `[idea] shut down OR closed OR acquired`, `best [idea] tools`.
 - Name at least five incumbents, with price and whether they're funded.
-- Name anyone who tried this and died, and why.
+- Name anyone who tried this and died — and for each one, name the **cause of death**: tech (it couldn't be built well then), cost (it couldn't be built cheaply then), demand (nobody would pay), platform (the host shut it out), or scale (it needed more users than it could get). Then ask: does AI change *that* cause? AI makes building cheaper. It does not make buyers cheaper, platforms friendlier, or demand appear. A tech or cost death may be worth re-opening; a demand, platform or scale death is still dead.
 - Rule of thumb for 2026: **any pain that makes the news already has ten apps within a quarter.** The question is not "is there a gap" but "why hasn't the gap been filled, and is that reason about to change?"
 - **Look for the workaround.** Search `[problem] spreadsheet`, `[problem] "is there a tool"`, `[problem] "what's your system"`. People already duct-taping a spreadsheet and three apps together are demand with a receipt; people merely complaining are not. No workaround found usually means no one wants it badly enough to pay.
 - If the incumbents are free (a government site, a bank's advice page, a safe-word card), the idea is competing with free. That is usually fatal.

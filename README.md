@@ -1,5 +1,7 @@
 # Idea Autopsy
 
+**Business, bulletin or bullshit?**
+
 A Claude skill that tells you whether a business idea — especially one an AI suggested — is a **BUSINESS**, a **BUSINESS, WRONG OWNER**, a **BULLETIN** (really just content), or **BULLSHIT**. It is deliberately hostile. Its job is to kill the idea; if the idea survives, it hands you the smallest test that would prove it wrong, with a kill line.
 
 ## Install

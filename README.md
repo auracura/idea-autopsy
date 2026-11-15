@@ -24,12 +24,15 @@ The machine generated. I decided. The deciding was a repeatable set of tests, so
 
 ## The tests, in order
 1. **The Wrapper Test** — what does a general-purpose LLM *not* have that this idea needs? Private data, action, trust/licence, presence, a captive audience, or live specificity. None of the six = wrapper.
-2. **The Crowd and the Graveyard** — name five incumbents with prices; name who tried this and died. In 2026 any pain that makes the news has ten apps within a quarter.
-3. **The Time Test** — casework doesn't fit evenings. Count the hidden weekly chores.
-4. **The World-Condition Test** — what does the idea ride, and what happens when it reverses?
-5. **The Money Maths** — with the owner's own target, not a nicer one.
-6. **Fresh Eyes** — isolated reviewers, one lens each, for anything still alive.
-7. **Verdict + smallest test + kill line.**
+2. **The Blocker Test** — what actually stops the customer today, and does this idea remove that or a smaller thing beside it? A bid-writing tool does nothing for a firm that can't post the bid bond.
+3. **The Crowd and the Graveyard** — name five incumbents with prices; name who tried this and died. In 2026 any pain that makes the news has ten apps within a quarter.
+4. **The Time Test** — casework doesn't fit evenings. Count the hidden weekly chores.
+5. **The World-Condition Test** — what does the idea ride, and what happens when it reverses?
+6. **The Money Maths** — with the owner's own target, not a nicer one.
+7. **Fresh Eyes** — isolated reviewers, one lens each, for anything still alive.
+8. **Verdict + smallest test + kill line + residue** — the residue is one line naming any other pain the run turned up, with its receipt. A lead for a separate autopsy, not a softer verdict.
+
+**Got a pile of ideas?** Paste them all. Batch mode triages every one on the wrapper test and your constraints, then spends the full run only on what survives.
 
 ## What it did in testing (examples/)
 - `01-ai-meal-planner.md` — textbook LLM slop. BULLSHIT. Found the graveyard on its own: Yummly (Whirlpool) shut 2024, Mealime (Albertsons) shutting Oct 2026.

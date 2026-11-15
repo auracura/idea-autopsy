@@ -11,9 +11,9 @@ LLMs are very good at generating plausible businesses and very bad at knowing wh
 ## Hard rules
 1. **Kill first, praise never.** Lead with what would make this fail. "Strong idea" is banned.
 2. **Every claim needs a receipt.** A competitor must be named. A number must have a source. "Commonly" and "typically" are not evidence.
-3. **Search before judging.** Run at least three web searches: incumbents, the graveyard (who tried this and died), and the pain (is anyone actually complaining).
+3. **Search before judging.** Run at least three web searches for every idea that gets a full run: incumbents, the graveyard (who tried this and died), and the pain (is anyone actually complaining). In batch mode, ideas killed at triage are the only exception.
 4. **The owner's constraints are the law.** Hours per week, money available, audience size, location, and what they refuse to do. An idea that is a business for someone else can be bullshit for this person.
-5. **End with a verdict and one test.** Never end with a list of considerations.
+5. **End with a verdict and one test.** Never end with a list of considerations. The residue line is one line of fact, not a consolation.
 
 ## Step 0 — Pin the constraints (ask if missing)
 - Hours per week the owner actually has (and whether evenings-only).
@@ -22,6 +22,15 @@ LLMs are very good at generating plausible businesses and very bad at knowing wh
 - Market they can reach (country, language, payment methods).
 - What they refuse to do (cold calls, casework, marketing, physical presence).
 - Unfair assets: data nobody else has, a licence, a captive customer base, a lived story, a skill that's rare.
+
+## Batch mode (more than three ideas at once)
+A pile of ideas is where discipline slips. Triage first, then spend the searches on what is left.
+- Pin the constraints once. They apply to every idea in the pile.
+- Triage every idea on two things only: the Wrapper Test and the owner's constraints. One line each, with one receipt — the named free incumbent, the constraint it breaks, or "none of the six".
+- An idea killed at triage gets its verdict there. Do not spend searches on it.
+- Every survivor gets the full run from Step 2, with its three searches. No shortcuts because there are many.
+- If an input is not an idea — a tool, a repo, a trend — do not invent one in order to kill it. State the single strongest idea it enables and test that, or write "no idea here".
+- Report the count first: how many ideas, how many of each verdict. Then the survivors in full. Then the dead, one line each. Do not rank the dead.
 
 ## Step 1 — The Wrapper Test
 Ask: **what does a general-purpose LLM not have that this idea needs?** There are only six answers that count. Mark which apply:
@@ -34,7 +43,14 @@ Ask: **what does a general-purpose LLM not have that this idea needs?** There ar
 
 If none apply, the idea is a wrapper. Verdict leans BULLSHIT. If the only thing it adds is "explaining" or "answering questions", verdict leans BULLETIN.
 
-## Step 2 — The Crowd and the Graveyard
+## Step 2 — The Blocker Test
+Ask: **what actually stops the customer today?** Find it before you look at competitors. Search `why [customers] don't [goal]`, `[customer] [goal] barrier OR "can't afford" OR rejected`, and read what the customers, their trade bodies or the regulator say — not what the pitch says.
+- Name the binding blocker, with a receipt. It is usually one of: cash, a licence or rule, a deadline, trust, time, or genuinely not knowing how.
+- Then ask: does this idea remove *that* blocker, or a smaller one standing next to it? A tool that drafts the bid does nothing for a firm that cannot post the bid bond.
+- If the blocker is cash, law or trust and the idea sells information or software, it is aimed at the wrong wall. Verdict leans BULLETIN if the knowledge is worth publishing, BULLSHIT if it isn't.
+- If the idea does remove the binding blocker, carry that forward. It is the stated reason an incumbent is beatable in Step 3.
+
+## Step 3 — The Crowd and the Graveyard
 Search: `[idea] app 2026`, `[idea] alternative`, `[idea] shut down OR closed OR acquired`, `best [idea] tools`.
 - Name at least five incumbents, with price and whether they're funded.
 - Name anyone who tried this and died — and for each one, name the **cause of death**: tech (it couldn't be built well then), cost (it couldn't be built cheaply then), demand (nobody would pay), platform (the host shut it out), or scale (it needed more users than it could get). Then ask: does AI change *that* cause? AI makes building cheaper. It does not make buyers cheaper, platforms friendlier, or demand appear. A tech or cost death may be worth re-opening; a demand, platform or scale death is still dead.
@@ -42,17 +58,17 @@ Search: `[idea] app 2026`, `[idea] alternative`, `[idea] shut down OR closed OR 
 - **Look for the workaround.** Search `[problem] spreadsheet`, `[problem] "is there a tool"`, `[problem] "what's your system"`. People already duct-taping a spreadsheet and three apps together are demand with a receipt; people merely complaining are not. No workaround found usually means no one wants it badly enough to pay.
 - If the incumbents are free (a government site, a bank's advice page, a safe-word card), the idea is competing with free. That is usually fatal.
 
-## Step 3 — The Time Test
+## Step 4 — The Time Test
 - Casework (clients, cases, calls, physical visits) does not fit evenings. Async products do.
 - Count the hidden weekly chores: data updates, support, crawler breakage, chasing payments, partner admin. Add them to the build hours.
 - If the owner becomes the bottleneck (approving every item, updating every rate), say so.
 
-## Step 4 — The World-Condition Test
+## Step 5 — The World-Condition Test
 - Name the inflection the idea rides (a war, an oil price, a hiring slump, a platform backlash, a regulation).
 - Ask: what happens to the idea if that condition reverses in six months? If the idea dies with the headline, it's a trade, not a business.
 - Ask the reverse: what new condition would make it obsolete (the platform adds the feature, the government opens the data, the LLM gets the ability)?
 
-## Step 5 — The Money Maths
+## Step 6 — The Money Maths
 Do the arithmetic with the owner's own target. Pick the model:
 - **Subscription:** target ÷ price = customers needed; add 5–8% monthly churn for micro-business tools; state new customers needed per month just to stand still.
 - **Per-case / service:** target ÷ price = cases per month; multiply by hours per case; compare to hours available.
@@ -60,10 +76,10 @@ Do the arithmetic with the owner's own target. Pick the model:
 - **Marketplace:** state both sides' acquisition cost. Two-sided marketplaces are out of scope for a solo evenings builder unless one side is already captive.
 If the maths needs the top of every range to reach the target, say the target is not reachable as specified.
 
-## Step 6 — Fresh Eyes (when the idea is still alive)
-If the idea has survived Steps 1–5, run a Goldfish pass: spawn at least three isolated reviewers with the Agent tool, each with one lens and no access to this conversation — Contrarian (why does this need to exist?), User Who Didn't Read the Manual (walk the first-time journey literally), Cost & Maintenance Realist (what it costs to run and who maintains it in a year). Pass them only the written idea and the constraints. Merge their findings by severity.
+## Step 7 — Fresh Eyes (when the idea is still alive)
+If the idea has survived Steps 1–6, run a Goldfish pass: spawn at least three isolated reviewers with the Agent tool, each with one lens and no access to this conversation — Contrarian (why does this need to exist?), User Who Didn't Read the Manual (walk the first-time journey literally), Cost & Maintenance Realist (what it costs to run and who maintains it in a year). Pass them only the written idea and the constraints. Merge their findings by severity.
 
-## Step 7 — Verdict
+## Step 8 — Verdict
 Exactly one of:
 - **BUSINESS** — passes the wrapper test with at least one of the six, incumbents are beatable for a stated reason, fits the hours, survives the condition reversing, and the maths reaches the target without heroics.
 - **BUSINESS, WRONG OWNER** — the idea is real (passes the wrapper test, incumbents beatable, demand with receipts) but it fails the owner's constraints: the hours, the presence it needs, the money or audience it needs first, or the thing the owner refuses to do. Say exactly which constraint fails. The fix is to change the constraints (a partner, a runner, more hours, a different target) or the owner — not to shrink the idea until it fits. Never downgrade a real idea to BULLSHIT because of the owner's calendar.
@@ -72,21 +88,26 @@ Exactly one of:
 
 Then: **the smallest test** — one weekend, no build if possible — that would prove the verdict wrong. A landing page with a price, a spreadsheet sold once, ten cold emails, one post in the place the customer already is. State the kill line (the number by which date that means stop).
 
+Then: **the residue** — one line. If the run uncovered a different pain with a receipt (the real blocker from Step 2, a gap that needs a body on the ground, a customer already paying for a workaround), name it and its receipt. Facts only: no "could", no "promising", no pivot pitch. It is a lead for a separate autopsy, not a softer verdict. If there is none, write "none".
+
 ## Output format
 ```
 VERDICT: BUSINESS / BUSINESS, WRONG OWNER / BULLETIN / BULLSHIT
 
 Why (3 bullets max, worst first, each with a receipt)
 What the LLM doesn't have here: [which of the six, or "none"]
+Blocker: [what actually stops the customer, with a receipt] · Does this remove it: [yes / no / a smaller one]
 Incumbents: [name, price, funded?] ×5 · Graveyard: [who died, why]
 Time: [hours/week this really costs, and the hidden chores]
 Condition it rides: [x] · If it reverses: [y]
 Money: [the arithmetic, in one line, with the target]
 Smallest test: [what, where, cost in hours] · Kill line: [number by date]
+Residue: [one adjacent pain with its receipt, or "none"]
 ```
 
 ## Do not
 - Suggest the idea "could work with more marketing". That is where bullshit hides.
 - Replace the owner's target with a nicer one.
 - Soften a BULLSHIT verdict because the owner is enthusiastic. Enthusiasm is the reason the skill exists.
+- Use the residue line to cheer up a kill. It names a fact the run found; it does not say the owner should chase it.
 - Pad. Three real findings beat fifteen considerations.
